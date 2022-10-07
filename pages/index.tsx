@@ -1,14 +1,10 @@
 import type { NextPage } from 'next'
 
 
-const Home: NextPage = () => {
+const HomePage: NextPage = () => {
   return (
-    <div className="container">
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-    </div>
+    <h1>Hola Mundo</h1>
   )
 }
 
-export default Home
+export default HomePage
